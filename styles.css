@@ -273,7 +273,12 @@ nav {
 .footer {
     grid-area: footer;
     grid-row: -1 / -2;
-    display: grid;
-    justify-items: center;
+    display: flex;
+    justify-content: center;
     align-items: center;
+}
+.footer img {
+    width: 22px;
+    height: 22px;
+    margin-left: 4px;
 }
